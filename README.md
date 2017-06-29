@@ -14,7 +14,7 @@ Other options accessing CNTK can be found [here](https://docs.microsoft.com/en-u
 
 ## III. Set Up CNTK with Python on Linux Ubuntu
  
-### III.1 step 1-Ubuntu 16+ install openmpi-bin
+### step 1-Ubuntu 16+ install openmpi-bin
 ```
 sudo apt-get install openmpi-bin
 ```
@@ -27,7 +27,7 @@ export PATH=/usr/local/mpi/bin:$PATH export LD_LIBRARY_PATH=/usr/local/mpi/lib:$
 If you face any problem please go to the official site or leave a commend.
 Check out the open mpi section of the [official site](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-linux#open-mpi)
 
-### III.2 step 2. install CNTK for the first time
+### step 2. install CNTK for the first time
 for python 2.7 CPU versions
 ```
 sudo pip install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.0-cp27-cp27mu-linux_x86_64.whl
@@ -45,6 +45,7 @@ Requirement already satisfied: numpy>=1.11 in ./.local/lib/python2.7/site-packag
 Installing collected packages: enum34, cntk
 Successfully installed cntk-2.0 enum34-1.1.6
 ```
+### step 3. Test the installation
 We can test the installation through input in terminal:
 ```
 python -c "import cntk; print(cntk.__version__)"
