@@ -14,7 +14,8 @@ Other options accessing CNTK can be found [here](https://docs.microsoft.com/en-u
 
 ## III. Set Up CNTK with Python on Linux Ubuntu
  
-### step 1-Ubuntu 16+ install openmpi-bin
+### step 1- install openmpi-bin
+For Ubuntu 16+ install openmpi-bin
 ```
 sudo apt-get install openmpi-bin
 ```
