@@ -64,3 +64,6 @@ Reference: other options of installing CNTK with python can be found [here](http
 
 ##What's next?
 
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
