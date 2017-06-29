@@ -3,6 +3,10 @@ Basic Description for setting up CNTK Python on Ubuntu 14+ or 16+
 We will start from describing the basic setup over the terminals
 
 ## I. Overview
+Why we should use CNTK is described in the [here](https://blogs.msdn.microsoft.com/uk_faculty_connection/2017/02/10/microsoft-cognitive-toolkit-cntk/)
+The above link also covers some introduction to this deep learning tool.
+Furthermore, There is an intresting post talking about [why we should should shift from Tensorflow to CNTK](https://docs.microsoft.com/en-us/cognitive-toolkit/reasons-to-switch-from-tensorflow-to-cntk)
+
 
 ## II. Some Resources
 The Azure with CNTK is not covered in this tutorial, but you can access Azure from [this link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/compute?search=Data%20Science%20Viirtual%20Machine&page=1).
