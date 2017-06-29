@@ -61,3 +61,6 @@ terminal should output(my current CNTK version is 2.0):
 ```
 
 Reference: other options of installing CNTK with python can be found [here](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-linux-python)
+
+##What's next?
+
