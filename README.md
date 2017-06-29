@@ -67,6 +67,6 @@ Reference: other options of installing CNTK with python can be found [here](http
 ## Reference
 [1] https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-python
 ## Claim
-The instruction and codes are originally from the [official website](https://cntk.ai/pythondocs/).
+The instruction and codes are originally from the [official website](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-python).
 This is just a quick guide of how student would approach the tool.
 
