@@ -2,9 +2,9 @@
 Basic Description for setting up CNTK Python on Ubuntu 14+ or 16+
 We will start from describing the basic setup over the terminals
 
-## Overview
+## I. Overview
 
-### Some Resources
+## II. Some Resources
 The Azure with CNTK is not covered in this tutorial, but you can access Azure from [this link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/compute?search=Data%20Science%20Viirtual%20Machine&page=1).
 The official Github guide can be accessed through [here](https://github.com/Microsoft/CNTK).
 
@@ -12,9 +12,9 @@ In this tutorial, we focus on the python 2.7 setup following the step from [offi
 
 Other options accessing CNTK can be found [here](https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-your-machine)
 
-## Set Up CNTK with Python on Linux Ubuntu
+## III. Set Up CNTK with Python on Linux Ubuntu
  
-###step 1. Ubuntu 16+ install openmpi-bin
+### III.1 step 1-Ubuntu 16+ install openmpi-bin
 ```
 sudo apt-get install openmpi-bin
 ```
@@ -27,7 +27,7 @@ export PATH=/usr/local/mpi/bin:$PATH export LD_LIBRARY_PATH=/usr/local/mpi/lib:$
 If you face any problem please go to the official site or leave a commend.
 Check out the open mpi section of the [official site](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-linux#open-mpi)
 
-###step 2. install CNTK for the first time
+### III.2 step 2. install CNTK for the first time
 for python 2.7 CPU versions
 ```
 sudo pip install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.0-cp27-cp27mu-linux_x86_64.whl
@@ -54,5 +54,4 @@ terminal should output(my current CNTK version is 2.0):
 2.0
 ```
 
- 
-Reference: other options can be found [here](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-linux-python)
+Reference: other options of installing CNTK with python can be found [here](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-linux-python)
