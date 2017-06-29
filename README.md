@@ -64,6 +64,8 @@ Reference: other options of installing CNTK with python can be found [here](http
 
 ##What's next?
 
-## License
+## Reference
+[1] https://docs.microsoft.com/en-us/cognitive-toolkit/setup-windows-python
 
+## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
