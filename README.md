@@ -14,7 +14,7 @@ Other options accessing CNTK can be found [here](https://docs.microsoft.com/en-u
 
 ## Set Up CNTK with Python on Linux Ubuntu
  
-step 1. Ubuntu 16+ install openmpi-bin
+###step 1. Ubuntu 16+ install openmpi-bin
 ```
 sudo apt-get install openmpi-bin
 ```
@@ -25,4 +25,34 @@ tar -xzvf ./openmpi-1.10.3.tar.gz cd openmpi-1.10.3 ./configure --prefix=/usr/lo
 export PATH=/usr/local/mpi/bin:$PATH export LD_LIBRARY_PATH=/usr/local/mpi/lib:$LD_LIBRARY_PATH
 ```
 If you face any problem please go to the official site or leave a commend.
-Regerence: Check out the open mpi section of the [official site](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-linux#open-mpi)
+Check out the open mpi section of the [official site](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-linux#open-mpi)
+
+###step 2. install CNTK for the first time
+for python 2.7 CPU versions
+```
+sudo pip install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.0-cp27-cp27mu-linux_x86_64.whl
+```
+for python 2.7 GPU versions 
+This requires Cuda and cuDNN which can be found [here](https://docs.microsoft.com/en-us/cognitive-toolkit/Setup-CNTK-on-Windows#nvidia-cuda-8)
+```
+sudo pip install https://cntk.ai/PythonWheel/GPU/cntk-2.0-cp27-cp27mu-linux_x86_64.whl
+```
+
+Once complete it shows:
+```
+Requirement already satisfied: scipy>=0.17 in /usr/lib/python2.7/dist-packages (from cntk==2.0)
+Requirement already satisfied: numpy>=1.11 in ./.local/lib/python2.7/site-packages (from cntk==2.0)
+Installing collected packages: enum34, cntk
+Successfully installed cntk-2.0 enum34-1.1.6
+```
+We can test the installation through input in terminal:
+```
+python -c "import cntk; print(cntk.__version__)"
+```
+terminal should output(my current CNTK version is 2.0):
+```
+2.0
+```
+
+ 
+Reference: other options can be found [here](https://docs.microsoft.com/en-us/cognitive-toolkit/setup-linux-python)
